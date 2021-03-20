@@ -203,6 +203,13 @@
                                     <constraint firstItem="T2I-Sg-paZ" firstAttribute="leading" secondItem="mVm-zR-hk6" secondAttribute="leading" constant="16" id="ldA-sJ-Ayb"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOQ-XH-fvJ">
+                                <rect key="frame" x="316" y="30" width="43" height="30"/>
+                                <state key="normal" title="reload"/>
+                                <connections>
+                                    <action selector="pressReloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cx9-qL-bgq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="background"/>
@@ -211,11 +218,13 @@
                             <constraint firstItem="CzT-li-a4k" firstAttribute="top" secondItem="crf-Ss-JcK" secondAttribute="bottom" constant="24" id="2Si-TY-T6e"/>
                             <constraint firstItem="mVm-zR-hk6" firstAttribute="top" secondItem="sRV-aQ-l93" secondAttribute="bottom" constant="10" id="90U-xN-Dc6"/>
                             <constraint firstItem="Nzb-Mi-kPb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BtU-CF-RqO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tOQ-XH-fvJ" secondAttribute="trailing" constant="16" id="Hif-oX-1NO"/>
                             <constraint firstItem="crf-Ss-JcK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Ohq-LE-dL2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bKG-7A-sr6" secondAttribute="trailing" constant="16" id="P5E-HH-LWS"/>
                             <constraint firstItem="bKG-7A-sr6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SPX-bX-Ib8"/>
                             <constraint firstItem="CzT-li-a4k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WvL-eC-QUm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CzT-li-a4k" secondAttribute="trailing" constant="16" id="e9j-1p-JJD"/>
+                            <constraint firstItem="tOQ-XH-fvJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="gAO-aL-Sdb"/>
                             <constraint firstItem="sRV-aQ-l93" firstAttribute="top" secondItem="bKG-7A-sr6" secondAttribute="bottom" constant="10" id="hAt-G2-ePT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mVm-zR-hk6" secondAttribute="trailing" constant="16" id="pmL-nL-QvU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sRV-aQ-l93" secondAttribute="trailing" constant="16" id="qTj-B6-mYV"/>
